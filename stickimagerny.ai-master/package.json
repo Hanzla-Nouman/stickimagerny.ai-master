@@ -1,0 +1,46 @@
+{
+  "name": "stock2ai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.536.0",
+    "@aws-sdk/s3-request-presigner": "^3.536.0",
+    "@clerk/nextjs": "^4.29.7",
+    "@fal-ai/serverless-client": "^0.8.2",
+    "@fal-ai/serverless-proxy": "^0.7.3",
+    "@headlessui/react": "^1.7.18",
+    "@heroicons/react": "^2.1.1",
+    "@lemonsqueezy/lemonsqueezy.js": "^3.0.0",
+    "@nextui-org/react": "^2.2.9",
+    "@radix-ui/react-navigation-menu": "^1.1.4",
+    "@supabase/auth-helpers-nextjs": "^0.9.0",
+    "@supabase/ssr": "^0.1.0",
+    "@supabase/supabase-js": "^2.39.7",
+    "@vercel/analytics": "^1.2.2",
+    "axios": "^1.6.7",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "cookies-next": "^4.1.1",
+    "framer-motion": "^11.0.3",
+    "lucide-react": "^0.363.0",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-compare-image": "^3.4.0",
+    "react-dom": "^18",
+    "tailwind-merge": "^2.2.2",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  }
+}
